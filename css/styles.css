@@ -1,0 +1,542 @@
+/* STYLESHEET USED FOR WEB PAGES */
+@font-face {
+		local('agencyb');
+		font-family: 'agencyfb';
+		src: url('../fonts/AGENCYB.TTF');
+		format('truetype');
+		font-weight: bold;
+}
+
+@font-face {
+	local('CODE Bold');
+	font-family: 'cold bold';
+	src: url('../fonts/CODE Bold.otf');
+	format('opentype');
+		
+}
+/* REGISTER/LOGIN.PHP STYLES */
+#registrationPlaceholder, #loginPlaceholder {
+	margin-top: -50px;
+	font-size: 10px;
+}
+
+.profileinfo{
+	margin: 0 auto;
+	padding: 10px 0;
+	width: 50%;
+	color: white;
+	text-align: center;
+	background: #555;
+	margin-top: -20px;
+	font-family: arial;
+}
+#profileHeader {
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px 0;
+	color: white;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	width: 50%;
+	background: linear-gradient(to bottom, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%);
+}
+.friendslist{
+	position: absolute;
+    right: 50px;
+    width: 300px;
+    background-color: #f7dea8;
+    text-align: center;
+    font-family: arial;
+    padding-top: 2px;
+    font-weight: bold;
+    border-radius: 20px;
+    background: radial-gradient(ellipse at center, #d5cea6 0%,#c9c190 40%,#b7ad70 100%);
+    
+}
+
+.wallPosts {
+	font-weight: bold;
+	font-family: arial;	
+	margin-bottom: -20px;
+}
+
+.wall{
+	font-family: arial;
+	margin: 0 auto;
+    right: 475px;
+    width: 600px;
+    background: radial-gradient(ellipse at center, #d5cea6 0%,#c9c190 40%,#b7ad70 100%);
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 5px;
+}
+
+.commentarea{
+	font-family: arial;
+}
+
+#submit {
+	font-family: agencyfb;
+	color: white;
+	background-color: #222;
+	transition: 0.3s all linear;
+	padding: 10px;
+}
+
+#submit:hover {
+	color: #00ff00;
+	background: linear-gradient(to bottom, #4a254f 0%,#6a0c75 52%,#7a2764 100%); 
+	transition: 0.3s all linear;
+}
+
+.addComment {
+	font-family:arial;
+	font-weight: bold;
+}
+
+.votebutton{
+	height: 25px;
+	width: 25px;
+		font-family: agencyfb;
+
+	color: white;
+
+
+	background-color: #222;
+	transition: 0.3s all linear;
+}
+
+.votebutton:hover {
+	color: #00ff00;
+	background: linear-gradient(to bottom, #4a254f 0%,#6a0c75 52%,#7a2764 100%); 
+	transition: 0.3s all linear;
+}
+
+.friendBtn {
+	font-family: agencyfb;
+	color: white;
+	background-color: #222;
+	transition: 0.3s all linear;
+}
+
+.friendBtn:hover {
+	color: #00ff00;
+	background: linear-gradient(to bottom, #4a254f 0%,#6a0c75 52%,#7a2764 100%); 
+	transition: 0.3s all linear;
+}
+
+.message {
+	background: linear-gradient(to bottom, #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); 
+	padding: 5px;
+	margin: 0 auto;
+	width: 75%;
+	font-family: arial;
+}
+
+.wallUser {
+	font-family: arial;
+}
+
+#errorPlaceholder {
+	text-align: center;
+}
+#errorMessage {
+	display: inline;
+	padding: 5px 25px;
+	color: #df0000;
+	font-family: trebuchet ms;
+	font-weight: bold;
+	background-color: #c0c0c0;
+}
+
+/* DEFAULT FONT */
+* {
+	font-family: cold bold;
+	letter-spacing: 1px;
+}	
+	
+#headerWrapper {
+	height: 144px;
+	max-width: 100%;
+
+}
+
+#dollarSign {
+	font-family: cold bold;
+}
+
+#banner {
+	height: 144px;
+	width: 60%;
+	max-width: 60%;
+	overflow: hidden;
+	background-image: url("../images/sitebanner.png");
+	background-position: 30%;
+	background-size: cover;
+	float: left;
+}
+
+#accountWrapper {
+	background-image: urL("../images/sitebannerrepeat.png");
+	background-position: center;
+	background-size: cover;
+	height: 144px;
+	width: 40%;
+	max-width: 40%;
+	float: left;
+}
+
+#columnLeft {
+	float: left;
+	width: 30%;
+}
+
+#columnRight {
+	float: left;
+	width: 70%;
+}
+
+#welcomeDiv, #pointsDiv, #rankingDiv, #wallDiv {
+	font-family: agencyfb;
+	letter-spacing: 1px;
+	color: white;
+	text-shadow: -2px 2px black;
+	padding-top: 10px;
+	padding-left: 10px;
+	
+}
+
+#viewWallButton, #logoutButton {
+	font-family: agencyfb;
+	letter-spacing: 1px;
+	color: white;
+	text-shadow: -2px 2px black;
+	padding: 5px;
+	margin: 0 10px;
+	margin-top: 10px;
+	background-color: #222;
+	transition: 0.3s all linear;
+}
+
+#viewWallButton:hover, #logoutButton:hover {
+	color: #00FF00;
+	background-color: black;
+	cursor: pointer;
+	transition: 0.3s all linear;
+}
+
+#menu-outer {
+	background-image: url("../images/menu.png");
+	background-size: contain;
+}
+
+.table {
+	display: table;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* SITE NAVIGATION STYLING */
+#horizontal-list {
+	font-family: agencyfb;
+	letter-spacing: 2px;
+	font-size: 125%;
+	width: 100%;
+	list-style: none;
+	padding-top: 20px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	overflow: hidden;
+	background-image: url("../images/menu.png");
+	background-size: contain;
+}
+
+#horizontal-list li {
+	display: inline;
+	float: left;
+	border-right: 1px solid #bbb;
+}
+
+#horizontal-list li:first-child {
+	border-left: 1px solid #bbb;
+}
+
+#horizontal-list li:last-child {
+	padding: 0;
+	margin: 0;
+}
+
+#horizontal-list li a {
+	display: inline-block;
+	color: white;
+	margin: 0;
+	text-align: center;
+	padding: 10px 12px;
+	text-decoration: none;
+	transition:all 0.5s ease;
+}
+
+
+/* NAVIGATION BUTTON HOVER FEEDBACK */
+#homeTab:hover, #chatTab:hover, #membersTab:hover, #luckyTab:hover, #diceTab:hover, #slotTab:hover {
+	background: linear-gradient(to bottom, #4a254f 0%,#6a0c75 52%,#7a2764 100%); 
+	color: #00FF00;
+	transition:all 0.5s ease;
+}
+
+.active {
+	background-color: #111;
+}
+
+/* SCROLL TO TOP BUTTON STYLING */
+#scrollButton {
+	display: none; 
+	position: fixed; 
+	bottom: 50px; 
+	right: 30px; 
+	z-index: 99; 
+	border: none; 
+	outline: none; 
+	background-color: #cc0000;
+	color: white; 
+	cursor: pointer; 
+	padding: 15px; 
+	border-radius: 10px; 
+}
+
+#scrollButton:hover {
+	background-color: #555;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin: 0 0 10px; /* bottom = footer height */
+	padding: 0;
+	background-color: #e0e0dc;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+#leaderboardWrapper {
+	text-align: center;
+}
+
+#leaderboard {
+	display: inline-block;
+	padding: 5px;
+	margin: 10px;
+	font-family: arial;
+	font-weight: bold;
+	border: black solid;
+	border-radius: 10px;
+	color: white;
+	background-color: #444;
+	line-height: 150%;
+	text-align: left;
+	font-size: 1.5rem;
+}
+
+.profileLink {
+	text-decoration: none;
+	font-family: arial;
+	font-weight: bold;
+	color: #1494c5;
+}
+
+.profileLink:hover {
+	text-decoration: underline;
+}
+
+table {
+	width: 50%;
+	margin: 0 auto;
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-family: arial;
+}
+
+td,th {
+	font-family: arial;
+	font-weight: bold;
+	outline: 1px solid black;
+    outline-offset: -1px;
+	text-align: left;
+	padding: 10px;
+	background-color: #EEEEEE;
+}
+
+tr#tableHeaders th:first-child {
+    border-radius: 6px 0 0 0;
+}
+
+tr#tableHeaders th:last-child {
+    border-radius: 0 6px 0 0;
+}
+
+
+tr#tableHeaders th{
+	background: linear-gradient(#333 0%,#444 100%);
+	color: white;
+	border-style: none;
+	outline-style: none;
+
+}
+
+.pageFrame {
+	height: 100%;
+}
+
+.lotteryPage {
+	position: relative;
+	height: 100%;
+	width: 99.75%;
+	margin-top: -20px;
+}
+
+#siteRules {
+	margin: 0 auto;
+	text-align: center;
+	font-family: trebuchet ms;
+	border-radius: 10px;
+	padding: 10px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 1.5em;
+	width: 50%;
+	background: linear-gradient(to bottom, rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%);
+}
+
+/* DICEROLL.PHP STYLES */
+#diceWrapper {
+	width: 600px;
+ 	text-align: center;
+ 	margin: 0 auto;
+ 	padding: 50px;
+	border: solid;
+	border-radius: 25px;
+	background: linear-gradient(to bottom, rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); 
+}
+#diceRollBet {
+     display: inline-block;
+     max-width: 300px;
+     vertical-align: top;
+     padding: 10px;
+}
+
+#diceRollBet input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  outline: none;
+  margin-right: 5px;
+  position: relative;
+  top: 4px;
+}
+
+#diceRollBet input:checked {
+  border: 8px solid #bf0000;
+}
+
+#rollDiceButton {
+	margin: 10px 0;
+	transition: all 0.3s linear;
+}
+
+#rollDiceButton:hover {
+	color: #00FF00;
+	transition: all 0.3s linear;
+	
+}
+#showDice {
+    display: inline-block;
+    width: 250px;
+    max-width: 300px;   
+    vertical-align: top;
+}
+
+#die {
+	font-size: 750%;
+}
+
+#rollDiceButton {
+	color: white;
+	text-shadow: -2px 2px black;
+	padding: 10px;
+	margin: 0 10px;
+	margin-top: 10px;
+	background-color: #222;
+}
+
+.winMessage {
+	color: red;
+}
+
+#diceRollRules {
+	text-align: center;
+}
+
+/* MEMBERS.PHP */
+#membersDiv th:hover {
+	cursor: pointer;
+	color: #00FF00;
+}
+
+.sortArrows { 
+	padding-right: 18px;
+	position: relative;
+}
+.sortArrows:before, .sortArrows:after {
+	border: 4px solid transparent;
+	content: "";
+	display: block;
+	height: 0;
+	right: 5px;
+	top: 50%;
+	position: absolute;
+	width: 0;
+}
+.sortArrows:before {
+	border-bottom-color: #999;
+	margin-top: -9px;
+}
+.sortArrows:after {
+	border-top-color: #999;
+	margin-top: 1px;
+}
+
+.sortArrows:hover::before {
+	border-bottom-color: #00FF00;
+}
+.sortArrows:hover:after {
+	border-top-color: #00FF00;
+}
+
+/* EDITABLE FOOTER AT BOTTOM OF PAGES */
+#footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 10px;
+	width: 98%;
+	text-align: center;
+	color: white;
+	margin: none;
+	padding: 15px;
+	background-image: url("../images/menu.png");
+	background-size: contain;
+}
